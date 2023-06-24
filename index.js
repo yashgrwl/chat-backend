@@ -4,7 +4,7 @@ const app=express();
 const socketIo=require('socket.io')
 const cors=require('cors')
 
-const port=process.env.port;
+const port=process.env.PORT;
 
 const server=http.createServer(app);
 
